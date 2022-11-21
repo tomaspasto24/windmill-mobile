@@ -1,0 +1,7 @@
+{
+  "name": "windmill-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

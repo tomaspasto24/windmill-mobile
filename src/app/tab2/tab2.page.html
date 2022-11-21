@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Prototypes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Prototypes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="container">
+    <div class="row" *ngFor="let prototype of prototypes">
+      <app-prototype [windmill]="prototype"></app-prototype>
+    </div>
+  </div>
+</ion-content>

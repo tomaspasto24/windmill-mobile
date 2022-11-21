@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pieces
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Pieces</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="container">
+    <div class="row" *ngFor="let piece of pieces">
+      <app-piece [piece]="piece"></app-piece>
+    </div>
+  </div>
+</ion-content>
